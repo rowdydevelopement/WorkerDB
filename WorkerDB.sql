@@ -6,7 +6,10 @@ CREATE TABLE workers (
 );
 
 INSERT INTO workers (id, name, username, langs)
-VALUES (1, 'Rowdy Piper', 'rowdypiperprogramming', 'py, sql, html, css, bash');
+VALUES (1, 'Rowdy Piper', 'rowdypiperprogramming', 'py, sql, html,bash');
 
 INSERT INTO workers (id, name, username, langs)
 VALUES (2, 'Ryan Liu', 'rpdsworker1', 'py');
+
+INSERT INTO wokers (id, name, username, langs)
+VALUES (3, 'Jess McClesky',NULL,'JS, HTML');
